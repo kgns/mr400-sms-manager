@@ -1,0 +1,22 @@
+{
+  "name": "mr400-sms-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgns/mr400-sms-manager.git"
+  },
+  "author": "Kagan Ustungel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgns/mr400-sms-manager/issues"
+  },
+  "homepage": "https://github.com/kgns/mr400-sms-manager#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
