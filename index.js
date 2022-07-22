@@ -63,6 +63,10 @@ module.exports = class SMSManager {
       console.log("[MR400] Logged in successfully.");
   }
 
+  async logout() {
+    await this.mr400API("8", "[/cgi/logout#0,0,0,0,0,0#0,0,0,0,0,0]0,0\r\n");
+  }
+
   async mr400API(cgi, payload) {
     const resp = await fetch(
       `${this.host}/cgi?${cgi}`,
